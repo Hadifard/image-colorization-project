@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 from transformers import AutoImageProcessor, AutoModelForImageColorization
 
-# Load model
+# Loading model
 device = "cuda" if torch.cuda.is_available() else "cpu"
 processor = AutoImageProcessor.from_pretrained("nielsr/vit-based-colorization")
 model = AutoModelForImageColorization.from_pretrained(
@@ -12,17 +12,17 @@ model = AutoModelForImageColorization.from_pretrained(
 ).to(device)
 
 def colorize_image(image_path: str):
-    # Load image (grayscale or RGB)
+    # Loading image (grayscale or RGB)
     image = Image.open(image_path).convert("RGB")
 
-    # Preprocess
+    # Preprocessing
     inputs = processor(images=image, return_tensors="pt").to(device)
 
-    # Inference
+    
     with torch.no_grad():
         outputs = model(**inputs)
 
-    # Post-process
+    # Post-processing
     colorized = processor.post_process_colorization(
         outputs, target_sizes=[image.size[::-1]]
     )[0]
