@@ -22,14 +22,14 @@ while True:
     frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     image = Image.fromarray(frame_rgb)
 
-    # Preprocess
+    # Preprocessing
     inputs = processor(images=image, return_tensors="pt").to(device)
 
-    # Inference
+  
     with torch.no_grad():
         outputs = model(**inputs)
 
-    # Post-process
+    # Post-processingg
     colorized = processor.post_process_colorization(
         outputs, target_sizes=[image.size[::-1]]
     )[0]
