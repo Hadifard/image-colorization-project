@@ -1,5 +1,7 @@
-modern-image-colorization/
-├── main.py
-├── webcam.py
-├── requirements.txt
-└── README.md
+image-colorization/
+├── colorize.py          
+├── README.md           
+├── requirements.txt               
+├── model/               (folder for model files)
+├── input_images/        (input folder)
+└── output_images/       (output folder)
