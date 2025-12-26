@@ -1,1 +1,9 @@
+Download these three files and place them inside model folder:
 
+colorization_deploy_v2.prototxt
+colorization_release_v2.caffemodel (125 MB)
+pts_in_hull.npy
+Download Links:
+
+GitHub Repository: https://github.com/richzhang/colorization/tree/caffe/colorization/models
+Direct Download: colorization_release_v2.caffemodel
