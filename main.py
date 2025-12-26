@@ -1,5 +1,5 @@
-# colorize black and white photos
-# by HADI SARHANGI FARD
+# coloriziation B&W photos using Zhang et al. Algorithm
+# author by HADI SARHANGI FARD
 
 import numpy as np
 import cv2
