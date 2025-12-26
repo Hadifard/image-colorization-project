@@ -17,19 +17,13 @@ while True:
     ret, frame = cap.read()
     if not ret:
         break
-
-    # Convert frame to PIL
     frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     image = Image.fromarray(frame_rgb)
-
-    # Preprocessing
     inputs = processor(images=image, return_tensors="pt").to(device)
-
-  
+    
     with torch.no_grad():
         outputs = model(**inputs)
 
-    # Post-processingg
     colorized = processor.post_process_colorization(
         outputs, target_sizes=[image.size[::-1]]
     )[0]
