@@ -6,8 +6,8 @@ pillow
 numpy
 Model Files Required:
     1. colorization_deploy_v2.prototxt
-    2. colorization_release_v2.caffemodel (125 MB)
+    2. colorization_release_v2.caffemodel (size: 125 MB)
     3. pts_in_hull.npy
     
-Download LINK: https://github.com/richzhang/colorization/tree/caffe/colorization/models
- https://www.dropbox.com/s/dx0qvhhp5hbcx7z/colorization_release_v2.caffemodel
+Download LINKs:     https://github.com/richzhang/colorization/tree/caffe/colorization/models
+                     https://www.dropbox.com/s/dx0qvhhp5hbcx7z/colorization_release_v2.caffemodel
