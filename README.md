@@ -156,10 +156,10 @@ image-colorization/
 │
 ├── examples/                      # Example before/after images
 │   ├── Einstein.png
-│   ├── tesla.png
-│   ├── kid.png
+│   ├── Tesla.png
+│   ├── kid.jpg
 │   ├── car.png
-│   └── image.png
+│   └── Image.jpg
 │
 ├── input_images/                  # Place your images here for batch processing
 └── output_images/                 # Colorized results will be saved here
