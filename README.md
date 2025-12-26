@@ -45,21 +45,21 @@ See the magic in action! Below are some examples of black and white images that 
 ---
 
 ### Portrait of a Child
-<img src="examples/kid.png" width="700">
+<img src="examples/kid.jpg" width="700">
 
 *Capturing childhood memories in vibrant colors*
 
 ---
 
 ### Classic Racing Automobile
-<img src="examples/car.png" width="700">
+<img src="examples/Car.png" width="700">
 
 *Vintage cars look stunning when colorized*
 
 ---
 
 ### My Image
-<img src="examples/image.png" width="700">
+<img src="examples/Image.jpg" width="700">
 
 *Various subjects can be automatically colorized*
 
@@ -195,18 +195,18 @@ The neural network was trained on over 1 million images and learned to associate
 
 The colorization works best on:
 
-- ✅ Historical photographs of people
-- ✅ Portraits and faces
-- ✅ Natural landscapes and outdoor scenes
-- ✅ Animals and wildlife
-- ✅ Vintage cars and architecture
+-  Historical photographs of people
+-  Portraits and faces
+-  Natural landscapes and outdoor scenes
+-  Animals and wildlife
+-  Vintage cars and architecture
 
 May not work as well on:
 
-- ❌ Abstract art or graphics
-- ❌ Very low quality or damaged images
-- ❌ Images with unusual or artistic content
-- ❌ Text-heavy documents
+-  Abstract art or graphics
+-  Very low quality or damaged images
+-  Images with unusual or artistic content
+-  Text-heavy documents
 
 ---
 
@@ -264,6 +264,7 @@ This project is based on the groundbreaking research:
 
 Feel free to reach out for questions, suggestions, or collaborations!
 
+- find me in linkedin: www.linkedin.com/in/hadi-sarhangi-fard-mech-eng
 ---
 
 ## License
@@ -314,7 +315,6 @@ Have questions or feedback? Feel free to:
 - Open an issue on GitHub
 - Submit a pull request with improvements
 - Share your colorization results!
-- or find me in linkedin: www.linkedin.com/in/hadi-sarhangi-fard-mech-eng
 ---
 
 ** Happy Colorizing! **
