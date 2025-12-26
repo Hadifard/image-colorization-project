@@ -1,6 +1,6 @@
 image-colorization/
 │
-├── colorize.py                    # Main colorization script
+├── main.py                        # Main colorization script
 ├── README.md                      # Project documentation (this file)
 ├── requirements.txt               # Python dependencies
 │
