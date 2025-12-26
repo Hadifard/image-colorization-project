@@ -1,7 +1,20 @@
 image-colorization/
-├── colorize.py          
-├── README.md           
-├── requirements.txt               
-├── model/               (folder for model files)
-├── input_images/        (input folder)
-└── output_images/       (output folder)
+│
+├── colorize.py                    # Main colorization script
+├── README.md                      # Project documentation (this file)
+├── requirements.txt               # Python dependencies
+│
+├── model/                         # Model files (download separately)
+│   ├── colorization_deploy_v2.prototxt
+│   ├── colorization_release_v2.caffemodel
+│   └── pts_in_hull.npy
+│
+├── examples/                      # Example before/after images
+│   ├── Einstein.png
+│   ├── Tesla.png
+│   ├── kid.jpg
+│   ├── car.png
+│   └── image.jpg
+│
+├── input_images/                  # Place your images here for batch processing
+└── output_images/                 # Colorized results will be saved here
