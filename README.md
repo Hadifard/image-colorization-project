@@ -117,7 +117,7 @@ Download these three files and place them in the `model/` folder:
 ### Colorize a Single Image
 
 1. Place your black and white image in the project folder
-2. Open `colorize.py` and modify this line:
+2. Open `main.py` and modify this line:
    ```python
    input_img = "your_image.jpg"  # Change to your image name
    ```
@@ -134,7 +134,7 @@ Download these three files and place them in the `model/` folder:
 2. Place all your black and white images inside this folder
 3. Run the script:
    ```bash
-   python colorize.py
+   python main.py
    ```
 4. All colorized images will be saved in the `output_images/` folder with the prefix "colorized_"
 
@@ -145,7 +145,7 @@ Download these three files and place them in the `model/` folder:
 ```
 image-colorization/
 │
-├── colorize.py                    # Main colorization script
+├── main.py                    # Main colorization script
 ├── README.md                      # Project documentation (this file)
 ├── requirements.txt               # Python dependencies
 │
