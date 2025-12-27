@@ -123,7 +123,7 @@ Download these three files and place them in the `model/` folder:
    ```
 3. Run the script:
    ```bash
-   python colorize.py
+   python main.py
    ```
 4. Find your colorized image saved as `output_colorized.jpg`
 5. A preview window will also show the before/after comparison
